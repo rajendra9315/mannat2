@@ -1,31 +1,7 @@
-/* STAR → PHOTO FADE */
+// optional tracking for telegram join button
 
-setTimeout(()=>{
-
-document.getElementById("stars").style.opacity="0";
-document.getElementById("pfp").style.opacity="1";
-
-},1500);
-
-
-/* PARTICLES */
-
-function createParticle(){
-
-const p=document.createElement("div");
-
-p.classList.add("neon-particle");
-
-p.style.left=Math.random()*100+"vw";
-
-p.style.top="100vh";
-
-p.style.animationDuration=(4+Math.random()*6)+"s";
-
-document.body.appendChild(p);
-
-setTimeout(()=>p.remove(),9000);
-
+document.querySelector(".btn").addEventListener("click", function(){
+if(typeof fbq !== "undefined"){
+fbq('track','Lead');
 }
-
-setInterval(createParticle,400);
+});
