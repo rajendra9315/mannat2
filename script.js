@@ -1,7 +1,3 @@
 // optional tracking for telegram join button
+//empty file
 
-document.querySelector(".btn").addEventListener("click", function(){
-if(typeof fbq !== "undefined"){
-fbq('track','Lead');
-}
-});
