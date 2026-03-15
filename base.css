@@ -1,0 +1,23 @@
+:root{
+--bg:#031616;
+--card:#062626;
+--primary:#18f3da;
+--text:#ffffff;
+--muted:#9fded7;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+}
+
+body{
+background:radial-gradient(circle at top,#053030,var(--bg));
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+color:var(--text);
+}
