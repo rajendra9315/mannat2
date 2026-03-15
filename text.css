@@ -1,0 +1,41 @@
+h1{
+font-size:26px;
+margin-bottom:6px;
+letter-spacing:.5px;
+}
+
+.sub{
+font-size:14px;
+color:var(--muted);
+margin-bottom:18px;
+}
+
+.urgent{
+font-size:14px;
+color:#00ffe0;
+margin-bottom:16px;
+font-weight:600;
+}
+
+.features{
+text-align:left;
+margin:16px 0;
+}
+
+.features li{
+list-style:none;
+font-size:14px;
+margin:8px 0;
+color:#e6fffc;
+}
+
+.features li::before{
+content:"★";
+color:#ffd54a;
+margin-right:8px;
+}
+
+.highlight{
+color:var(--primary);
+font-weight:700;
+}
