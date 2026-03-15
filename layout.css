@@ -1,0 +1,21 @@
+.container{
+width:100%;
+max-width:380px;
+padding:18px;
+}
+
+.card{
+background:var(--card);
+border-radius:20px;
+padding:24px 20px 28px;
+box-shadow:0 0 40px rgba(24,243,218,.25);
+text-align:center;
+}
+
+.footer{
+border-top:1px solid rgba(255,255,255,.08);
+margin-top:18px;
+padding-top:14px;
+font-size:13px;
+color:#9fded7;
+}
